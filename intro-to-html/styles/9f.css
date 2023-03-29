@@ -1,0 +1,69 @@
+img {
+  height:220px;
+  width:200px;
+  object-fit: cover;
+  object-position: bottom;
+}
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.user {
+  width: 200px;
+  height:350px;
+  box-shadow: 0px 0px 7px rgba(0,0,0,.4);
+  background-color: white;
+  transition: transform 0.15s;
+  margin-right: 20px;
+}
+
+.user:hover {
+  transform: scale(1.2);
+}
+
+.profile-pic {
+  width: 200px;
+}
+
+.name {
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.mutual {
+  margin-left: 8px;
+  margin-bottom: 15px;
+  color: gray;
+}
+
+.add {
+  background-color: rgb(72, 145, 255);
+  color: white;
+  border: none;
+  padding-top: 8px;
+  padding-right: 17px;
+  padding-bottom: 8px;
+  padding-left: 17px;
+  border-radius: 5px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  margin-top: 18px;
+}
+
+.add:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.add:active {
+  opacity: 0.6;
+}
+
+.friends {
+  margin-top: 50px;
+  margin-left: 50px;
+}
